@@ -51,6 +51,12 @@
     transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 0.44s;
 }
 
+.btn a{
+text-decoration:none;
+color: inherit;
+
+}
+
 .btn:hover
 {
     transform: scale(1,1);
