@@ -1,0 +1,159 @@
+*,*::after,*::before
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.container
+{
+background: url('https://images.pexels.com/photos/750843/pexels-photo-750843.jpeg?cs=srgb&dl=abstract-art-celebration-750843.jpg&fm=jpg');
+background-attachment: fixed;
+color:white;
+background-size:cover;
+height:100vh;
+width:100%;
+}
+
+.container .subcontainer
+{
+background:rgba(1,1,1,0.8);
+z-index: 100;
+height:inherit;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.heading
+{
+    font-family: fantasy;
+    font-size:3vmax;
+    position: relative;
+    top:-4em;
+    letter-spacing: 4px;
+}
+
+.items
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+@media only screen and (max-width:1254px){
+.items
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.items .ab, .items .cd,.items .ef,.items .gh{
+margin-right: 0 !important;
+}
+}
+.items .ab
+{
+margin-right: 2em;
+/* margin-left: 0.5em; */
+padding: 0.5em 0 0.5em 0;
+background: linear-gradient(270deg,#FFBE00,#dbc928);
+width:6em;
+border-radius: 30em;
+text-align: center;
+cursor: pointer;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 2rem;
+transform: scale(0.8,0.8);
+transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 0.44s;
+
+}
+
+.items .cd
+{
+margin-right: 2em;
+padding: 0.5em 0 0.5em 0;
+background: linear-gradient(270deg,#FFBE00,#dbc928);
+width:6em;
+border-radius: 30em;
+text-align: center;
+cursor: pointer;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 2rem;
+transform: scale(0.8,0.8);
+transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 0.44s;
+}
+
+.items .ef
+{
+margin-right: 2em;
+padding: 0.5em 0 0.5em 0;
+background: linear-gradient(270deg,#FFBE00,#dbc928);
+width:6em;
+border-radius: 30em;
+text-align: center;
+cursor: pointer;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 2rem;
+transform: scale(0.8,0.8);
+transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 0.44s;
+}
+
+.items .gh
+{
+margin-right: 2em;
+padding: 0.5em 0 0.5em 0;
+background: linear-gradient(270deg,#FFBE00,#dbc928);
+width:6em;
+border-radius: 30em;
+text-align: center;
+cursor: pointer;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 2rem;
+transform: scale(0.8,0.8);
+transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 0.44s;
+}
+
+.items .ij
+{
+padding: 0.5em 0 0.5em 0;
+background: linear-gradient(270deg,#FFBE00,#dbc928);
+width:6em;
+border-radius: 30em;
+text-align: center;
+cursor: pointer;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 2rem;
+transform: scale(0.8,0.8);
+transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 0.44s;
+}
+
+.ab:hover
+{
+    transform: scale(1,1);
+    transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 0.44s;
+}
+.cd:hover
+{
+    transform: scale(1,1);
+    transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 0.44s;
+}
+.ef:hover
+{
+    transform: scale(1,1);
+    transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 0.44s;
+}
+.gh:hover
+{
+    transform: scale(1,1);
+    transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 0.44s;
+}
+.ij:hover
+{
+    transform: scale(1,1);
+    transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 0.44s;
+}
+.items .ab a{
+    text-decoration:none;
+color: inherit;
+}
