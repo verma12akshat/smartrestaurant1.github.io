@@ -104,6 +104,7 @@ grid-gap: 4em;
     background-size: cover;
     height:inherit;
     background-position-x: -62px;
+    text-align:center;
 }
 .item4
 {
