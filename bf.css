@@ -88,6 +88,7 @@ grid-gap: 4em;
     height: inherit;
     background-position-x: -23px;
     background-position-y: 6px;
+    text-align:center;
 }
 .item2
 {
@@ -112,6 +113,7 @@ grid-gap: 4em;
     background-position-x: -51px;
     background-position-y: 8px;
     margin-bottom:10px;
+    text-aign:center;
 }
 
 .btn .itemContainer
