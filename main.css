@@ -93,6 +93,7 @@ grid-gap: 4em;
     background:url('https://recipes.timesofindia.com/photo/53205522.cms');
     background-size: cover;
     height:inherit;
+    text-align: center;
     background-position-x: 1px;
     background-position-y: 1px;
 }
@@ -102,6 +103,7 @@ grid-gap: 4em;
     background-size: cover;
     height:inherit;
     background-position-x: -83px;
+    text-align: center;
 }
 .item4
 {
