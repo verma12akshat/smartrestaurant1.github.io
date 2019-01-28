@@ -171,3 +171,15 @@ transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 0.44s;
     color: inherit;
 }
 
+.items .gh a
+{
+    text-decoration:none;
+    color: inherit;
+}
+
+.items .ij a
+{
+    text-decoration:none;
+    color: inherit;
+}
+
