@@ -153,12 +153,14 @@ transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 0.44s;
     transform: scale(1,1);
     transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 0.44s;
 }
-.items .ab a{
+.items .ab a
+{
     text-decoration:none;
-color: inherit;
+    color: inherit;
 }
 
-.items .cd a{
+.items .cd a
+{
     text-decoration:none;
-color: inherit;
+    color: inherit;
 }
