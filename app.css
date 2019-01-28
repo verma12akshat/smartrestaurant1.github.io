@@ -97,6 +97,7 @@ grid-gap: 4em;
     height:inherit;
     background-position-x: -11px;
     background-position-y: 1px;
+    text-align:center;
 }
 .item3
 {
